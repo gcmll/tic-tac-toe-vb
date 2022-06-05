@@ -121,6 +121,7 @@ namespace tictactoeA2
                 else
                 {
                     btnTesting4.Text = "O";
+                    statusTrueFalse= false;
                     checkStatusResult();
                 }
             }
@@ -143,6 +144,7 @@ namespace tictactoeA2
                 else
                 {
                     btnTesting5.Text = "O";
+                    statusTrueFalse= false;
                     checkStatusResult();
                 }
             }
@@ -213,6 +215,7 @@ namespace tictactoeA2
                     btnTesting8.Text = "O";
                     statusTrueFalse= false;
                     checkStatusResult();
+
                 }
             }
             catch (Exception)
@@ -236,6 +239,7 @@ namespace tictactoeA2
                     btnTesting9.Text = "O";
                     statusTrueFalse= false;
                     checkStatusResult();
+
                 }
             }
             catch (Exception)
@@ -349,7 +353,6 @@ namespace tictactoeA2
                     MessageBox.Show("An error occured.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
-
         }
     }
 }
