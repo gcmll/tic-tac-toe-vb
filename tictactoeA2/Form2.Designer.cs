@@ -47,6 +47,7 @@
             this.lblPlayerO = new System.Windows.Forms.Label();
             this.lblPXScore = new System.Windows.Forms.Label();
             this.lblPOScore = new System.Windows.Forms.Label();
+            this.btnResetScore = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.picBoxPlayerX)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picBoxPlayerO)).BeginInit();
             this.SuspendLayout();
@@ -277,12 +278,28 @@
             this.lblPOScore.Text = "0";
             this.lblPOScore.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // btnResetScore
+            // 
+            this.btnResetScore.BackColor = System.Drawing.Color.LemonChiffon;
+            this.btnResetScore.CausesValidation = false;
+            this.btnResetScore.Font = new System.Drawing.Font("UD Digi Kyokasho NK-B", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnResetScore.ForeColor = System.Drawing.Color.Crimson;
+            this.btnResetScore.Location = new System.Drawing.Point(414, 630);
+            this.btnResetScore.Name = "btnResetScore";
+            this.btnResetScore.Size = new System.Drawing.Size(188, 47);
+            this.btnResetScore.TabIndex = 18;
+            this.btnResetScore.Text = "Reset Score";
+            this.btnResetScore.UseMnemonic = false;
+            this.btnResetScore.UseVisualStyleBackColor = false;
+            this.btnResetScore.Click += new System.EventHandler(this.btnResetScore_Click);
+            // 
             // Play
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::tictactoeA2.Properties.Resources.Play_Background;
             this.ClientSize = new System.Drawing.Size(635, 715);
+            this.Controls.Add(this.btnResetScore);
             this.Controls.Add(this.lblPOScore);
             this.Controls.Add(this.lblPXScore);
             this.Controls.Add(this.lblPlayerO);
@@ -334,5 +351,6 @@
         private Label lblPlayerO;
         private Label lblPXScore;
         private Label lblPOScore;
+        private Button btnResetScore;
     }
 }

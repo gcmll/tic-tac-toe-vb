@@ -645,5 +645,19 @@ namespace tictactoeA2
         {
             continueNextRound();
         }
+
+        private void btnResetScore_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                continueNextRound();
+                lblPXScore.Text = "0";
+                lblPOScore.Text = "0";         
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("An error occured.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
     }
 }
