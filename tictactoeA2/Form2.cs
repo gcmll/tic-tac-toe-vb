@@ -54,6 +54,7 @@ namespace tictactoeA2
                     statusTrueFalse = false;
                     checkStatusResult();
                 }
+                btnTesting1.Enabled = false;
             }
             catch (Exception)
             {
@@ -78,6 +79,7 @@ namespace tictactoeA2
                     statusTrueFalse = false;
                     checkStatusResult();
                 }
+                btnTesting2.Enabled = false;
             }
             catch (Exception)
             {
@@ -101,6 +103,7 @@ namespace tictactoeA2
                     statusTrueFalse = false;
                     checkStatusResult();
                 }
+                btnTesting3.Enabled = false;
             }
             catch (Exception)
             {
@@ -124,6 +127,7 @@ namespace tictactoeA2
                     statusTrueFalse= false;
                     checkStatusResult();
                 }
+                btnTesting4.Enabled = false;
             }
             catch (Exception)
             {
@@ -147,6 +151,7 @@ namespace tictactoeA2
                     statusTrueFalse= false;
                     checkStatusResult();
                 }
+                btnTesting5.Enabled = false;
             }
             catch (Exception)
             {
@@ -170,6 +175,7 @@ namespace tictactoeA2
                     statusTrueFalse = false;
                     checkStatusResult();
                 }
+                btnTesting6.Enabled = false;
             }
             catch (Exception)
             {
@@ -193,6 +199,7 @@ namespace tictactoeA2
                     statusTrueFalse= false;
                     checkStatusResult();
                 }
+                btnTesting7.Enabled = false;
             }
             catch (Exception)
             {
@@ -215,8 +222,8 @@ namespace tictactoeA2
                     btnTesting8.Text = "O";
                     statusTrueFalse= false;
                     checkStatusResult();
-
                 }
+                btnTesting8.Enabled = false;
             }
             catch (Exception)
             {
@@ -239,8 +246,8 @@ namespace tictactoeA2
                     btnTesting9.Text = "O";
                     statusTrueFalse= false;
                     checkStatusResult();
-
                 }
+                btnTesting9.Enabled = false;
             }
             catch (Exception)
             {
