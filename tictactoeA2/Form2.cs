@@ -38,7 +38,7 @@ namespace tictactoeA2
 
         Boolean statusTrueFalse;
 
-            private void btnTesting1_Click(object sender, EventArgs e)
+        private void btnTesting1_Click(object sender, EventArgs e)
         {
             try
             {
@@ -46,11 +46,13 @@ namespace tictactoeA2
                 {
                     btnTesting1.Text = "X";
                     statusTrueFalse = true;
+                    checkStatusResult();
                 }
                 else
                 {
                     btnTesting1.Text = "O";
                     statusTrueFalse = false;
+                    checkStatusResult();
                 }
             }
             catch (Exception)
@@ -68,11 +70,13 @@ namespace tictactoeA2
                 {
                     btnTesting2.Text = "X";
                     statusTrueFalse = true;
+                    checkStatusResult();
                 }
                 else
                 {
                     btnTesting2.Text = "O";
                     statusTrueFalse = false;
+                    checkStatusResult();
                 }
             }
             catch (Exception)
@@ -89,11 +93,13 @@ namespace tictactoeA2
                 {
                     btnTesting3.Text = "X";
                     statusTrueFalse = true;
+                    checkStatusResult();
                 }
                 else
                 {
                     btnTesting3.Text = "O";
                     statusTrueFalse = false;
+                    checkStatusResult();
                 }
             }
             catch (Exception)
@@ -110,11 +116,12 @@ namespace tictactoeA2
                 {
                     btnTesting4.Text = "X";
                     statusTrueFalse = true;
+                    checkStatusResult();
                 }
                 else
                 {
                     btnTesting4.Text = "O";
-                    statusTrueFalse = false;
+                    checkStatusResult();
                 }
             }
             catch (Exception)
@@ -131,11 +138,12 @@ namespace tictactoeA2
                 {
                     btnTesting5.Text = "X";
                     statusTrueFalse = true;
+                    checkStatusResult();
                 }
                 else
                 {
                     btnTesting5.Text = "O";
-                    statusTrueFalse = false;
+                    checkStatusResult();
                 }
             }
             catch (Exception)
@@ -152,11 +160,13 @@ namespace tictactoeA2
                 {
                     btnTesting6.Text = "X";
                     statusTrueFalse = true;
+                    checkStatusResult();
                 }
                 else
                 {
                     btnTesting6.Text = "O";
                     statusTrueFalse = false;
+                    checkStatusResult();
                 }
             }
             catch (Exception)
@@ -173,11 +183,13 @@ namespace tictactoeA2
                 {
                     btnTesting7.Text = "X";
                     statusTrueFalse = true;
+                    checkStatusResult();
                 }
                 else
                 {
-                    btnTesting7.Text = "O"; 
-                    statusTrueFalse= false; 
+                    btnTesting7.Text = "O";
+                    statusTrueFalse= false;
+                    checkStatusResult();
                 }
             }
             catch (Exception)
@@ -194,11 +206,13 @@ namespace tictactoeA2
                 {
                     btnTesting8.Text = "X";
                     statusTrueFalse = true;
+                    checkStatusResult();
                 }
                 else
                 {
                     btnTesting8.Text = "O";
                     statusTrueFalse= false;
+                    checkStatusResult();
                 }
             }
             catch (Exception)
@@ -215,17 +229,127 @@ namespace tictactoeA2
                 {
                     btnTesting9.Text = "X";
                     statusTrueFalse = true;
+                    checkStatusResult();
                 }
                 else
                 {
                     btnTesting9.Text = "O";
                     statusTrueFalse= false;
+                    checkStatusResult();
                 }
             }
             catch (Exception)
             {
                 MessageBox.Show("An error occured.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+        }
+
+
+        void nextmessageBoxResultX()
+        {
+            try
+            {
+                MessageBox.Show("Congratulations! Player X won the game.", "Tic Tac Toe", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("An error occured.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+
+        void checkStatusResult()
+        {
+            //For player X
+            if (btnTesting1.Text == "X" && btnTesting4.Text == "X" && btnTesting7.Text == "X")
+            {
+                try
+                {
+                    nextmessageBoxResultX();
+                }
+                catch (Exception)
+                {
+                    MessageBox.Show("An error occured.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+            else if (btnTesting2.Text == "X" && btnTesting5.Text == "X" && btnTesting8.Text == "X")
+            {
+                try
+                {
+                    nextmessageBoxResultX();
+                }
+                catch (Exception)
+                {
+                    MessageBox.Show("An error occured.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+            else if (btnTesting3.Text == "X" && btnTesting6.Text == "X" && btnTesting9.Text == "X")
+            {
+                try
+                {
+                    nextmessageBoxResultX();
+                }
+                catch (Exception)
+                {
+                    MessageBox.Show("An error occured.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+            else if (btnTesting1.Text == "X" && btnTesting2.Text == "X" && btnTesting3.Text == "X")
+            {
+                try
+                {
+                    nextmessageBoxResultX();
+                }
+                catch (Exception)
+                {
+                    MessageBox.Show("An error occured.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+            else if (btnTesting4.Text == "X" && btnTesting5.Text == "X" && btnTesting6.Text == "X")
+            {
+                try
+                {
+                    nextmessageBoxResultX();
+                }
+                catch (Exception)
+                {
+                    MessageBox.Show("An error occured.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+            else if (btnTesting7.Text == "X" && btnTesting8.Text == "X" && btnTesting9.Text == "X")
+            {
+                try
+                {
+                    nextmessageBoxResultX();
+                }
+                catch (Exception)
+                {
+                    MessageBox.Show("An error occured.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+            else if (btnTesting1.Text == "X" && btnTesting5.Text == "X" && btnTesting9.Text == "X")
+            {
+                try
+                {
+                    nextmessageBoxResultX();
+                }
+                catch (Exception)
+                {
+                    MessageBox.Show("An error occured.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+            else if (btnTesting7.Text == "X" && btnTesting5.Text == "X" && btnTesting3.Text == "X")
+            {
+                try
+                {
+                    nextmessageBoxResultX();
+                }
+                catch (Exception)
+                {
+                    MessageBox.Show("An error occured.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+
         }
     }
 }
