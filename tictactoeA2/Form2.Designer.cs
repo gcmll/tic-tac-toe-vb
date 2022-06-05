@@ -45,6 +45,8 @@
             this.picBoxPlayerO = new System.Windows.Forms.PictureBox();
             this.lblPlayerX = new System.Windows.Forms.Label();
             this.lblPlayerO = new System.Windows.Forms.Label();
+            this.lblPXScore = new System.Windows.Forms.Label();
+            this.lblPOScore = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.picBoxPlayerX)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picBoxPlayerO)).BeginInit();
             this.SuspendLayout();
@@ -52,6 +54,7 @@
             // btnHome
             // 
             this.btnHome.BackColor = System.Drawing.Color.LemonChiffon;
+            this.btnHome.CausesValidation = false;
             this.btnHome.Font = new System.Drawing.Font("UD Digi Kyokasho NK-B", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnHome.ForeColor = System.Drawing.Color.Crimson;
             this.btnHome.Location = new System.Drawing.Point(32, 630);
@@ -192,6 +195,7 @@
             // btnNewGame
             // 
             this.btnNewGame.BackColor = System.Drawing.Color.LemonChiffon;
+            this.btnNewGame.CausesValidation = false;
             this.btnNewGame.Font = new System.Drawing.Font("UD Digi Kyokasho NK-B", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnNewGame.ForeColor = System.Drawing.Color.Crimson;
             this.btnNewGame.Location = new System.Drawing.Point(217, 630);
@@ -240,12 +244,38 @@
             this.lblPlayerO.AutoSize = true;
             this.lblPlayerO.BackColor = System.Drawing.Color.Transparent;
             this.lblPlayerO.Font = new System.Drawing.Font("UD Digi Kyokasho NK-B", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblPlayerO.Location = new System.Drawing.Point(409, 121);
+            this.lblPlayerO.Location = new System.Drawing.Point(410, 121);
             this.lblPlayerO.Name = "lblPlayerO";
             this.lblPlayerO.Size = new System.Drawing.Size(139, 28);
             this.lblPlayerO.TabIndex = 15;
             this.lblPlayerO.Text = "Player (O)";
             this.lblPlayerO.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblPXScore
+            // 
+            this.lblPXScore.AutoSize = true;
+            this.lblPXScore.BackColor = System.Drawing.Color.Transparent;
+            this.lblPXScore.Font = new System.Drawing.Font("UD Digi Kyokasho NK-B", 33F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblPXScore.ForeColor = System.Drawing.Color.Crimson;
+            this.lblPXScore.Location = new System.Drawing.Point(141, 153);
+            this.lblPXScore.Name = "lblPXScore";
+            this.lblPXScore.Size = new System.Drawing.Size(53, 51);
+            this.lblPXScore.TabIndex = 16;
+            this.lblPXScore.Text = "0";
+            this.lblPXScore.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblPOScore
+            // 
+            this.lblPOScore.AutoSize = true;
+            this.lblPOScore.BackColor = System.Drawing.Color.Transparent;
+            this.lblPOScore.Font = new System.Drawing.Font("UD Digi Kyokasho NK-B", 33F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblPOScore.ForeColor = System.Drawing.Color.Crimson;
+            this.lblPOScore.Location = new System.Drawing.Point(451, 153);
+            this.lblPOScore.Name = "lblPOScore";
+            this.lblPOScore.Size = new System.Drawing.Size(53, 51);
+            this.lblPOScore.TabIndex = 17;
+            this.lblPOScore.Text = "0";
+            this.lblPOScore.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Play
             // 
@@ -253,6 +283,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::tictactoeA2.Properties.Resources.Play_Background;
             this.ClientSize = new System.Drawing.Size(635, 715);
+            this.Controls.Add(this.lblPOScore);
+            this.Controls.Add(this.lblPXScore);
             this.Controls.Add(this.lblPlayerO);
             this.Controls.Add(this.lblPlayerX);
             this.Controls.Add(this.picBoxPlayerO);
@@ -300,5 +332,7 @@
         private PictureBox picBoxPlayerO;
         private Label lblPlayerX;
         private Label lblPlayerO;
+        private Label lblPXScore;
+        private Label lblPOScore;
     }
 }

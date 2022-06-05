@@ -349,11 +349,15 @@ namespace tictactoeA2
             }
         }
 
+        ushort scoreCount;
+
         void nextmessageBoxResultX()
         {
             try
             {
                 MessageBox.Show("Congratulations! Player X won the game.", "Tic Tac Toe", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                scoreCount = ushort.Parse(lblPXScore.Text);
+                lblPXScore.Text = Convert.ToString(scoreCount + 1);
                 btnOff();
                 continueNextRound();
             }
@@ -368,6 +372,8 @@ namespace tictactoeA2
             try
             {
                 MessageBox.Show("Congratulations! Player O won the game.", "Tic Tac Toe", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                scoreCount = ushort.Parse(lblPOScore.Text);
+                lblPOScore.Text = Convert.ToString(scoreCount + 1);
                 btnOff();
                 continueNextRound();
             }
