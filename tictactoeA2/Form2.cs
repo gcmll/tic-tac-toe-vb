@@ -16,5 +16,24 @@ namespace tictactoeA2
         {
             InitializeComponent();
         }
+
+        private void btnHome_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                DialogResult result = MessageBox.Show("Are you sure you want to quit?", "Please Confirm", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+                if (result == DialogResult.Yes)
+                {
+                    Hide();
+                    Home f1 = new Home();
+                    f1.Show();
+                }
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("An error occured.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
     }
 }

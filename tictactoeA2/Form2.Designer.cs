@@ -29,7 +29,21 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Play));
+            this.btnHome = new System.Windows.Forms.Button();
             this.SuspendLayout();
+            // 
+            // btnHome
+            // 
+            this.btnHome.BackColor = System.Drawing.Color.LemonChiffon;
+            this.btnHome.Font = new System.Drawing.Font("UD Digi Kyokasho NK-B", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnHome.ForeColor = System.Drawing.Color.Crimson;
+            this.btnHome.Location = new System.Drawing.Point(32, 630);
+            this.btnHome.Name = "btnHome";
+            this.btnHome.Size = new System.Drawing.Size(175, 47);
+            this.btnHome.TabIndex = 0;
+            this.btnHome.Text = "Home";
+            this.btnHome.UseVisualStyleBackColor = false;
+            this.btnHome.Click += new System.EventHandler(this.btnHome_Click);
             // 
             // Play
             // 
@@ -37,6 +51,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::tictactoeA2.Properties.Resources.Play_Background;
             this.ClientSize = new System.Drawing.Size(635, 715);
+            this.Controls.Add(this.btnHome);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
@@ -48,5 +63,7 @@
         }
 
         #endregion
+
+        private Button btnHome;
     }
 }
