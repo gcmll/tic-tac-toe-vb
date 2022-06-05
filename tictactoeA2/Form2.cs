@@ -143,5 +143,26 @@ namespace tictactoeA2
                 MessageBox.Show("An error occured.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+        private void btnTesting6_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (statusTrueFalse == false)
+                {
+                    btnTesting6.Text = "X";
+                    statusTrueFalse = true;
+                }
+                else
+                {
+                    btnTesting6.Text = "O";
+                    statusTrueFalse = false;
+                }
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("An error occured.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
     }
 }
