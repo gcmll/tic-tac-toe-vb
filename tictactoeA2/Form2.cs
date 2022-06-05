@@ -38,7 +38,7 @@ namespace tictactoeA2
 
         Boolean statusTrueFalse;
 
-        private void btnTesting1_Click(object sender, EventArgs e)
+            private void btnTesting1_Click(object sender, EventArgs e)
         {
             try
             {
