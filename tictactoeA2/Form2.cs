@@ -261,6 +261,18 @@ namespace tictactoeA2
             }
         }
 
+        void nextmessageBoxResultO()
+        {
+            try
+            {
+                MessageBox.Show("Congratulations! Player O won the game.", "Tic Tac Toe", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("An error occured.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
 
         void checkStatusResult()
         {
@@ -347,6 +359,95 @@ namespace tictactoeA2
                 try
                 {
                     nextmessageBoxResultX();
+                }
+                catch (Exception)
+                {
+                    MessageBox.Show("An error occured.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+            //For player O
+            else if (btnTesting1.Text == "O" && btnTesting4.Text == "O" && btnTesting7.Text == "O")
+            {
+                try
+                {
+                    nextmessageBoxResultO();
+                }
+                catch (Exception)
+                {
+                    MessageBox.Show("An error occured.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+            else if (btnTesting2.Text == "O" && btnTesting5.Text == "O" && btnTesting8.Text == "O")
+            {
+                try
+                {
+                    nextmessageBoxResultO();
+                }
+                catch (Exception)
+                {
+                    MessageBox.Show("An error occured.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+            else if (btnTesting3.Text == "O" && btnTesting6.Text == "O" && btnTesting9.Text == "O")
+            {
+                try
+                {
+                    nextmessageBoxResultO();
+                }
+                catch (Exception)
+                {
+                    MessageBox.Show("An error occured.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+            else if (btnTesting1.Text == "O" && btnTesting2.Text == "O" && btnTesting3.Text == "O")
+            {
+                try
+                {
+                    nextmessageBoxResultO();
+                }
+                catch (Exception)
+                {
+                    MessageBox.Show("An error occured.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+            else if (btnTesting4.Text == "O" && btnTesting5.Text == "O" && btnTesting6.Text == "O")
+            {
+                try
+                {
+                    nextmessageBoxResultO();
+                }
+                catch (Exception)
+                {
+                    MessageBox.Show("An error occured.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+            else if (btnTesting7.Text == "O" && btnTesting8.Text == "O" && btnTesting9.Text == "O")
+            {
+                try
+                {
+                    nextmessageBoxResultO();
+                }
+                catch (Exception)
+                {
+                    MessageBox.Show("An error occured.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+            else if (btnTesting1.Text == "O" && btnTesting5.Text == "O" && btnTesting9.Text == "O")
+            {
+                try
+                {
+                    nextmessageBoxResultO();
+                }
+                catch (Exception)
+                {
+                    MessageBox.Show("An error occured.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+            else if (btnTesting7.Text == "O" && btnTesting5.Text == "O" && btnTesting3.Text == "O")
+            {
+                try
+                {
+                    nextmessageBoxResultO();
                 }
                 catch (Exception)
                 {
