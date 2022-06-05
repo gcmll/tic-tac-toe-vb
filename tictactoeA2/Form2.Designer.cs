@@ -57,101 +57,110 @@
             // 
             // btnTesting1
             // 
+            this.btnTesting1.BackColor = System.Drawing.Color.White;
             this.btnTesting1.Font = new System.Drawing.Font("UD Digi Kyokasho NK-B", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnTesting1.ForeColor = System.Drawing.Color.SaddleBrown;
             this.btnTesting1.Location = new System.Drawing.Point(138, 239);
             this.btnTesting1.Name = "btnTesting1";
             this.btnTesting1.Size = new System.Drawing.Size(110, 110);
             this.btnTesting1.TabIndex = 1;
-            this.btnTesting1.UseVisualStyleBackColor = true;
+            this.btnTesting1.UseVisualStyleBackColor = false;
             this.btnTesting1.Click += new System.EventHandler(this.btnTesting1_Click);
             // 
             // btnTesting2
             // 
+            this.btnTesting2.BackColor = System.Drawing.Color.White;
             this.btnTesting2.Font = new System.Drawing.Font("UD Digi Kyokasho NK-B", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnTesting2.ForeColor = System.Drawing.Color.SaddleBrown;
             this.btnTesting2.Location = new System.Drawing.Point(138, 358);
             this.btnTesting2.Name = "btnTesting2";
             this.btnTesting2.Size = new System.Drawing.Size(110, 110);
             this.btnTesting2.TabIndex = 2;
-            this.btnTesting2.UseVisualStyleBackColor = true;
+            this.btnTesting2.UseVisualStyleBackColor = false;
             this.btnTesting2.Click += new System.EventHandler(this.btnTesting2_Click);
             // 
             // btnTesting3
             // 
+            this.btnTesting3.BackColor = System.Drawing.Color.White;
             this.btnTesting3.Font = new System.Drawing.Font("UD Digi Kyokasho NK-B", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnTesting3.ForeColor = System.Drawing.Color.SaddleBrown;
             this.btnTesting3.Location = new System.Drawing.Point(138, 479);
             this.btnTesting3.Name = "btnTesting3";
             this.btnTesting3.Size = new System.Drawing.Size(110, 110);
             this.btnTesting3.TabIndex = 3;
-            this.btnTesting3.UseVisualStyleBackColor = true;
+            this.btnTesting3.UseVisualStyleBackColor = false;
             this.btnTesting3.Click += new System.EventHandler(this.btnTesting3_Click);
             // 
             // btnTesting4
             // 
+            this.btnTesting4.BackColor = System.Drawing.Color.White;
             this.btnTesting4.Font = new System.Drawing.Font("UD Digi Kyokasho NK-B", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnTesting4.ForeColor = System.Drawing.Color.SaddleBrown;
             this.btnTesting4.Location = new System.Drawing.Point(260, 239);
             this.btnTesting4.Name = "btnTesting4";
             this.btnTesting4.Size = new System.Drawing.Size(110, 110);
             this.btnTesting4.TabIndex = 4;
-            this.btnTesting4.UseVisualStyleBackColor = true;
+            this.btnTesting4.UseVisualStyleBackColor = false;
             this.btnTesting4.Click += new System.EventHandler(this.btnTesting4_Click);
             // 
             // btnTesting5
             // 
+            this.btnTesting5.BackColor = System.Drawing.Color.White;
             this.btnTesting5.Font = new System.Drawing.Font("UD Digi Kyokasho NK-B", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnTesting5.ForeColor = System.Drawing.Color.SaddleBrown;
             this.btnTesting5.Location = new System.Drawing.Point(260, 358);
             this.btnTesting5.Name = "btnTesting5";
             this.btnTesting5.Size = new System.Drawing.Size(110, 110);
             this.btnTesting5.TabIndex = 5;
-            this.btnTesting5.UseVisualStyleBackColor = true;
+            this.btnTesting5.UseVisualStyleBackColor = false;
             this.btnTesting5.Click += new System.EventHandler(this.btnTesting5_Click);
             // 
             // btnTesting6
             // 
+            this.btnTesting6.BackColor = System.Drawing.Color.White;
             this.btnTesting6.Font = new System.Drawing.Font("UD Digi Kyokasho NK-B", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnTesting6.ForeColor = System.Drawing.Color.SaddleBrown;
             this.btnTesting6.Location = new System.Drawing.Point(260, 479);
             this.btnTesting6.Name = "btnTesting6";
             this.btnTesting6.Size = new System.Drawing.Size(110, 110);
             this.btnTesting6.TabIndex = 6;
-            this.btnTesting6.UseVisualStyleBackColor = true;
+            this.btnTesting6.UseVisualStyleBackColor = false;
             this.btnTesting6.Click += new System.EventHandler(this.btnTesting6_Click);
             // 
             // btnTesting7
             // 
+            this.btnTesting7.BackColor = System.Drawing.Color.White;
             this.btnTesting7.Font = new System.Drawing.Font("UD Digi Kyokasho NK-B", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnTesting7.ForeColor = System.Drawing.Color.SaddleBrown;
             this.btnTesting7.Location = new System.Drawing.Point(382, 239);
             this.btnTesting7.Name = "btnTesting7";
             this.btnTesting7.Size = new System.Drawing.Size(110, 110);
             this.btnTesting7.TabIndex = 7;
-            this.btnTesting7.UseVisualStyleBackColor = true;
+            this.btnTesting7.UseVisualStyleBackColor = false;
             this.btnTesting7.Click += new System.EventHandler(this.btnTesting7_Click);
             // 
             // btnTesting8
             // 
+            this.btnTesting8.BackColor = System.Drawing.Color.White;
             this.btnTesting8.Font = new System.Drawing.Font("UD Digi Kyokasho NK-B", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnTesting8.ForeColor = System.Drawing.Color.SaddleBrown;
             this.btnTesting8.Location = new System.Drawing.Point(382, 358);
             this.btnTesting8.Name = "btnTesting8";
             this.btnTesting8.Size = new System.Drawing.Size(110, 110);
             this.btnTesting8.TabIndex = 8;
-            this.btnTesting8.UseVisualStyleBackColor = true;
+            this.btnTesting8.UseVisualStyleBackColor = false;
             this.btnTesting8.Click += new System.EventHandler(this.btnTesting8_Click);
             // 
             // btnTesting9
             // 
+            this.btnTesting9.BackColor = System.Drawing.Color.White;
             this.btnTesting9.Font = new System.Drawing.Font("UD Digi Kyokasho NK-B", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnTesting9.ForeColor = System.Drawing.Color.SaddleBrown;
             this.btnTesting9.Location = new System.Drawing.Point(382, 479);
             this.btnTesting9.Name = "btnTesting9";
             this.btnTesting9.Size = new System.Drawing.Size(110, 110);
             this.btnTesting9.TabIndex = 9;
-            this.btnTesting9.UseVisualStyleBackColor = true;
+            this.btnTesting9.UseVisualStyleBackColor = false;
             this.btnTesting9.Click += new System.EventHandler(this.btnTesting9_Click);
             // 
             // btnTesting
