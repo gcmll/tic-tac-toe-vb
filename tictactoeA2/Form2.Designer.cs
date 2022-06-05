@@ -40,6 +40,7 @@
             this.btnTesting8 = new System.Windows.Forms.Button();
             this.btnTesting9 = new System.Windows.Forms.Button();
             this.btnTesting = new System.Windows.Forms.Button();
+            this.btnNewGame = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnHome
@@ -172,12 +173,26 @@
             this.btnTesting.TabIndex = 10;
             this.btnTesting.UseVisualStyleBackColor = true;
             // 
+            // btnNewGame
+            // 
+            this.btnNewGame.BackColor = System.Drawing.Color.LemonChiffon;
+            this.btnNewGame.Font = new System.Drawing.Font("UD Digi Kyokasho NK-B", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnNewGame.ForeColor = System.Drawing.Color.Crimson;
+            this.btnNewGame.Location = new System.Drawing.Point(217, 630);
+            this.btnNewGame.Name = "btnNewGame";
+            this.btnNewGame.Size = new System.Drawing.Size(187, 47);
+            this.btnNewGame.TabIndex = 11;
+            this.btnNewGame.Text = "New Game";
+            this.btnNewGame.UseVisualStyleBackColor = false;
+            this.btnNewGame.Click += new System.EventHandler(this.btnNewGame_Click);
+            // 
             // Play
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::tictactoeA2.Properties.Resources.Play_Background;
             this.ClientSize = new System.Drawing.Size(635, 715);
+            this.Controls.Add(this.btnNewGame);
             this.Controls.Add(this.btnTesting);
             this.Controls.Add(this.btnTesting9);
             this.Controls.Add(this.btnTesting8);
@@ -212,5 +227,6 @@
         private Button btnTesting8;
         private Button btnTesting9;
         private Button btnTesting;
+        private Button btnNewGame;
     }
 }

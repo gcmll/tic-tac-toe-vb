@@ -347,7 +347,6 @@ namespace tictactoeA2
             {
                 MessageBox.Show("An error occured.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-
         }
 
         void nextmessageBoxResultX()
@@ -634,6 +633,11 @@ namespace tictactoeA2
                     MessageBox.Show("An error occured.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
+        }
+
+        private void btnNewGame_Click(object sender, EventArgs e)
+        {
+            continueNextRound();
         }
     }
 }
