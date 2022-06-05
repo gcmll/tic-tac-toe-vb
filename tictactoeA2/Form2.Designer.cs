@@ -58,6 +58,7 @@
             // btnTesting1
             // 
             this.btnTesting1.Font = new System.Drawing.Font("UD Digi Kyokasho NK-B", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnTesting1.ForeColor = System.Drawing.Color.SaddleBrown;
             this.btnTesting1.Location = new System.Drawing.Point(138, 239);
             this.btnTesting1.Name = "btnTesting1";
             this.btnTesting1.Size = new System.Drawing.Size(110, 110);
@@ -68,6 +69,7 @@
             // btnTesting2
             // 
             this.btnTesting2.Font = new System.Drawing.Font("UD Digi Kyokasho NK-B", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnTesting2.ForeColor = System.Drawing.Color.SaddleBrown;
             this.btnTesting2.Location = new System.Drawing.Point(138, 358);
             this.btnTesting2.Name = "btnTesting2";
             this.btnTesting2.Size = new System.Drawing.Size(110, 110);
@@ -78,6 +80,7 @@
             // btnTesting3
             // 
             this.btnTesting3.Font = new System.Drawing.Font("UD Digi Kyokasho NK-B", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnTesting3.ForeColor = System.Drawing.Color.SaddleBrown;
             this.btnTesting3.Location = new System.Drawing.Point(138, 479);
             this.btnTesting3.Name = "btnTesting3";
             this.btnTesting3.Size = new System.Drawing.Size(110, 110);
@@ -88,6 +91,7 @@
             // btnTesting4
             // 
             this.btnTesting4.Font = new System.Drawing.Font("UD Digi Kyokasho NK-B", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnTesting4.ForeColor = System.Drawing.Color.SaddleBrown;
             this.btnTesting4.Location = new System.Drawing.Point(260, 239);
             this.btnTesting4.Name = "btnTesting4";
             this.btnTesting4.Size = new System.Drawing.Size(110, 110);
@@ -98,6 +102,7 @@
             // btnTesting5
             // 
             this.btnTesting5.Font = new System.Drawing.Font("UD Digi Kyokasho NK-B", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnTesting5.ForeColor = System.Drawing.Color.SaddleBrown;
             this.btnTesting5.Location = new System.Drawing.Point(260, 358);
             this.btnTesting5.Name = "btnTesting5";
             this.btnTesting5.Size = new System.Drawing.Size(110, 110);
@@ -108,6 +113,7 @@
             // btnTesting6
             // 
             this.btnTesting6.Font = new System.Drawing.Font("UD Digi Kyokasho NK-B", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnTesting6.ForeColor = System.Drawing.Color.SaddleBrown;
             this.btnTesting6.Location = new System.Drawing.Point(260, 479);
             this.btnTesting6.Name = "btnTesting6";
             this.btnTesting6.Size = new System.Drawing.Size(110, 110);
@@ -118,6 +124,7 @@
             // btnTesting7
             // 
             this.btnTesting7.Font = new System.Drawing.Font("UD Digi Kyokasho NK-B", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnTesting7.ForeColor = System.Drawing.Color.SaddleBrown;
             this.btnTesting7.Location = new System.Drawing.Point(382, 239);
             this.btnTesting7.Name = "btnTesting7";
             this.btnTesting7.Size = new System.Drawing.Size(110, 110);
@@ -128,6 +135,7 @@
             // btnTesting8
             // 
             this.btnTesting8.Font = new System.Drawing.Font("UD Digi Kyokasho NK-B", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnTesting8.ForeColor = System.Drawing.Color.SaddleBrown;
             this.btnTesting8.Location = new System.Drawing.Point(382, 358);
             this.btnTesting8.Name = "btnTesting8";
             this.btnTesting8.Size = new System.Drawing.Size(110, 110);
@@ -138,6 +146,7 @@
             // btnTesting9
             // 
             this.btnTesting9.Font = new System.Drawing.Font("UD Digi Kyokasho NK-B", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnTesting9.ForeColor = System.Drawing.Color.SaddleBrown;
             this.btnTesting9.Location = new System.Drawing.Point(382, 479);
             this.btnTesting9.Name = "btnTesting9";
             this.btnTesting9.Size = new System.Drawing.Size(110, 110);

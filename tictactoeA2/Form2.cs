@@ -42,19 +42,21 @@ namespace tictactoeA2
         {
             try
             {
-                if (statusTrueFalse == false)
+                if (btnTesting1.Text == "")
                 {
-                    btnTesting1.Text = "X";
-                    statusTrueFalse = true;
-                    checkStatusResult();
+                    if (statusTrueFalse == false)
+                    {
+                        btnTesting1.Text = "X";
+                        statusTrueFalse = true;
+                        checkStatusResult();
+                    }
+                    else
+                    {
+                        btnTesting1.Text = "O";
+                        statusTrueFalse = false;
+                        checkStatusResult();
+                    }
                 }
-                else
-                {
-                    btnTesting1.Text = "O";
-                    statusTrueFalse = false;
-                    checkStatusResult();
-                }
-                btnTesting1.Enabled = false;
             }
             catch (Exception)
             {
@@ -67,19 +69,21 @@ namespace tictactoeA2
         {
             try
             {
-                if (statusTrueFalse == false)
+                if (btnTesting2.Text == "")
                 {
-                    btnTesting2.Text = "X";
-                    statusTrueFalse = true;
-                    checkStatusResult();
+                    if (statusTrueFalse == false)
+                    {
+                        btnTesting2.Text = "X";
+                        statusTrueFalse = true;
+                        checkStatusResult();
+                    }
+                    else
+                    {
+                        btnTesting2.Text = "O";
+                        statusTrueFalse = false;
+                        checkStatusResult();
+                    }
                 }
-                else
-                {
-                    btnTesting2.Text = "O";
-                    statusTrueFalse = false;
-                    checkStatusResult();
-                }
-                btnTesting2.Enabled = false;
             }
             catch (Exception)
             {
@@ -91,19 +95,21 @@ namespace tictactoeA2
         {
             try
             {
-                if (statusTrueFalse == false)
+                if (btnTesting3.Text == "")
                 {
-                    btnTesting3.Text = "X";
-                    statusTrueFalse = true;
-                    checkStatusResult();
+                    if (statusTrueFalse == false)
+                    {
+                        btnTesting3.Text = "X";
+                        statusTrueFalse = true;
+                        checkStatusResult();
+                    }
+                    else
+                    {
+                        btnTesting3.Text = "O";
+                        statusTrueFalse = false;
+                        checkStatusResult();
+                    }
                 }
-                else
-                {
-                    btnTesting3.Text = "O";
-                    statusTrueFalse = false;
-                    checkStatusResult();
-                }
-                btnTesting3.Enabled = false;
             }
             catch (Exception)
             {
@@ -115,19 +121,21 @@ namespace tictactoeA2
         {
             try
             {
-                if (statusTrueFalse == false)
+                if (btnTesting4.Text == "")
                 {
-                    btnTesting4.Text = "X";
-                    statusTrueFalse = true;
-                    checkStatusResult();
+                    if (statusTrueFalse == false)
+                    {
+                        btnTesting4.Text = "X";
+                        statusTrueFalse = true;
+                        checkStatusResult();
+                    }
+                    else
+                    {
+                        btnTesting4.Text = "O";
+                        statusTrueFalse= false;
+                        checkStatusResult();
+                    }
                 }
-                else
-                {
-                    btnTesting4.Text = "O";
-                    statusTrueFalse= false;
-                    checkStatusResult();
-                }
-                btnTesting4.Enabled = false;
             }
             catch (Exception)
             {
@@ -139,19 +147,21 @@ namespace tictactoeA2
         {
             try
             {
-                if (statusTrueFalse == false)
+                if (btnTesting5.Text == "")
                 {
-                    btnTesting5.Text = "X";
-                    statusTrueFalse = true;
-                    checkStatusResult();
+                    if (statusTrueFalse == false)
+                    {
+                        btnTesting5.Text = "X";
+                        statusTrueFalse = true;
+                        checkStatusResult();
+                    }
+                    else
+                    {
+                        btnTesting5.Text = "O";
+                        statusTrueFalse= false;
+                        checkStatusResult();
+                    }
                 }
-                else
-                {
-                    btnTesting5.Text = "O";
-                    statusTrueFalse= false;
-                    checkStatusResult();
-                }
-                btnTesting5.Enabled = false;
             }
             catch (Exception)
             {
@@ -163,19 +173,21 @@ namespace tictactoeA2
         {
             try
             {
-                if (statusTrueFalse == false)
+                if (btnTesting6.Text == "")
                 {
-                    btnTesting6.Text = "X";
-                    statusTrueFalse = true;
-                    checkStatusResult();
+                    if (statusTrueFalse == false)
+                    {
+                        btnTesting6.Text = "X";
+                        statusTrueFalse = true;
+                        checkStatusResult();
+                    }
+                    else
+                    {
+                        btnTesting6.Text = "O";
+                        statusTrueFalse = false;
+                        checkStatusResult();
+                    }
                 }
-                else
-                {
-                    btnTesting6.Text = "O";
-                    statusTrueFalse = false;
-                    checkStatusResult();
-                }
-                btnTesting6.Enabled = false;
             }
             catch (Exception)
             {
@@ -187,19 +199,21 @@ namespace tictactoeA2
         {
             try
             {
-                if (statusTrueFalse == false)
+                if (btnTesting7.Text == "")
                 {
-                    btnTesting7.Text = "X";
-                    statusTrueFalse = true;
-                    checkStatusResult();
+                    if (statusTrueFalse == false)
+                    {
+                        btnTesting7.Text = "X";
+                        statusTrueFalse = true;
+                        checkStatusResult();
+                    }
+                    else
+                    {
+                        btnTesting7.Text = "O";
+                        statusTrueFalse= false;
+                        checkStatusResult();
+                    }
                 }
-                else
-                {
-                    btnTesting7.Text = "O";
-                    statusTrueFalse= false;
-                    checkStatusResult();
-                }
-                btnTesting7.Enabled = false;
             }
             catch (Exception)
             {
@@ -211,19 +225,21 @@ namespace tictactoeA2
         {
             try
             {
-                if (statusTrueFalse == false)
+                if (btnTesting8.Text == "")
                 {
-                    btnTesting8.Text = "X";
-                    statusTrueFalse = true;
-                    checkStatusResult();
+                    if (statusTrueFalse == false)
+                    {
+                        btnTesting8.Text = "X";
+                        statusTrueFalse = true;
+                        checkStatusResult();
+                    }
+                    else
+                    {
+                        btnTesting8.Text = "O";
+                        statusTrueFalse= false;
+                        checkStatusResult();
+                    }
                 }
-                else
-                {
-                    btnTesting8.Text = "O";
-                    statusTrueFalse= false;
-                    checkStatusResult();
-                }
-                btnTesting8.Enabled = false;
             }
             catch (Exception)
             {
@@ -235,19 +251,21 @@ namespace tictactoeA2
         {
             try
             {
-                if (statusTrueFalse == false)
+                if (btnTesting9.Text == "")
                 {
-                    btnTesting9.Text = "X";
-                    statusTrueFalse = true;
-                    checkStatusResult();
+                    if (statusTrueFalse == false)
+                    {
+                        btnTesting9.Text = "X";
+                        statusTrueFalse = true;
+                        checkStatusResult();
+                    }
+                    else
+                    {
+                        btnTesting9.Text = "O";
+                        statusTrueFalse= false;
+                        checkStatusResult();
+                    }
                 }
-                else
-                {
-                    btnTesting9.Text = "O";
-                    statusTrueFalse= false;
-                    checkStatusResult();
-                }
-                btnTesting9.Enabled = false;
             }
             catch (Exception)
             {
@@ -327,6 +345,9 @@ namespace tictactoeA2
             {
                 try
                 {
+                    btnTesting1.BackColor = Color.White;    
+                    btnTesting4.BackColor = Color.White;
+                    btnTesting7.BackColor = Color.White;
                     nextmessageBoxResultX();
                 }
                 catch (Exception)
@@ -338,6 +359,9 @@ namespace tictactoeA2
             {
                 try
                 {
+                    btnTesting2.BackColor = Color.White;
+                    btnTesting5.BackColor = Color.White;
+                    btnTesting8.BackColor = Color.White;
                     nextmessageBoxResultX();
                 }
                 catch (Exception)
@@ -349,6 +373,9 @@ namespace tictactoeA2
             {
                 try
                 {
+                    btnTesting3.BackColor = Color.White;
+                    btnTesting6.BackColor = Color.White;
+                    btnTesting9.BackColor = Color.White;
                     nextmessageBoxResultX();
                 }
                 catch (Exception)
@@ -360,6 +387,9 @@ namespace tictactoeA2
             {
                 try
                 {
+                    btnTesting1.BackColor = Color.White;
+                    btnTesting2.BackColor = Color.White;
+                    btnTesting3.BackColor = Color.White;
                     nextmessageBoxResultX();
                 }
                 catch (Exception)
@@ -371,6 +401,9 @@ namespace tictactoeA2
             {
                 try
                 {
+                    btnTesting4.BackColor = Color.White;
+                    btnTesting5.BackColor = Color.White;
+                    btnTesting6.BackColor = Color.White;
                     nextmessageBoxResultX();
                 }
                 catch (Exception)
@@ -382,6 +415,9 @@ namespace tictactoeA2
             {
                 try
                 {
+                    btnTesting7.BackColor = Color.White;
+                    btnTesting8.BackColor = Color.White;
+                    btnTesting9.BackColor = Color.White;
                     nextmessageBoxResultX();
                 }
                 catch (Exception)
@@ -393,6 +429,9 @@ namespace tictactoeA2
             {
                 try
                 {
+                    btnTesting1.BackColor = Color.White;
+                    btnTesting5.BackColor = Color.White;
+                    btnTesting9.BackColor = Color.White;
                     nextmessageBoxResultX();
                 }
                 catch (Exception)
@@ -404,6 +443,9 @@ namespace tictactoeA2
             {
                 try
                 {
+                    btnTesting7.BackColor = Color.White;
+                    btnTesting5.BackColor = Color.White;
+                    btnTesting3.BackColor = Color.White;
                     nextmessageBoxResultX();
                 }
                 catch (Exception)
@@ -416,6 +458,9 @@ namespace tictactoeA2
             {
                 try
                 {
+                    btnTesting1.BackColor = Color.White;
+                    btnTesting4.BackColor = Color.White;
+                    btnTesting7.BackColor = Color.White;
                     nextmessageBoxResultO();
                 }
                 catch (Exception)
@@ -427,6 +472,9 @@ namespace tictactoeA2
             {
                 try
                 {
+                    btnTesting2.BackColor = Color.White;
+                    btnTesting5.BackColor = Color.White;
+                    btnTesting8.BackColor = Color.White;
                     nextmessageBoxResultO();
                 }
                 catch (Exception)
@@ -438,6 +486,9 @@ namespace tictactoeA2
             {
                 try
                 {
+                    btnTesting3.BackColor = Color.White;
+                    btnTesting6.BackColor = Color.White;
+                    btnTesting9.BackColor = Color.White;
                     nextmessageBoxResultO();
                 }
                 catch (Exception)
@@ -449,6 +500,9 @@ namespace tictactoeA2
             {
                 try
                 {
+                    btnTesting1.BackColor = Color.White;
+                    btnTesting2.BackColor = Color.White;
+                    btnTesting3.BackColor = Color.White;
                     nextmessageBoxResultO();
                 }
                 catch (Exception)
@@ -460,6 +514,9 @@ namespace tictactoeA2
             {
                 try
                 {
+                    btnTesting4.BackColor = Color.White;
+                    btnTesting5.BackColor = Color.White;
+                    btnTesting6.BackColor = Color.White;
                     nextmessageBoxResultO();
                 }
                 catch (Exception)
@@ -471,6 +528,9 @@ namespace tictactoeA2
             {
                 try
                 {
+                    btnTesting7.BackColor = Color.White;
+                    btnTesting8.BackColor = Color.White;
+                    btnTesting9.BackColor = Color.White;
                     nextmessageBoxResultO();
                 }
                 catch (Exception)
@@ -482,6 +542,9 @@ namespace tictactoeA2
             {
                 try
                 {
+                    btnTesting1.BackColor = Color.White;
+                    btnTesting5.BackColor = Color.White;
+                    btnTesting9.BackColor = Color.White;
                     nextmessageBoxResultO();
                 }
                 catch (Exception)
@@ -493,6 +556,9 @@ namespace tictactoeA2
             {
                 try
                 {
+                    btnTesting7.BackColor = Color.White;
+                    btnTesting5.BackColor = Color.White;
+                    btnTesting3.BackColor = Color.White;
                     nextmessageBoxResultO();
                 }
                 catch (Exception)
