@@ -248,6 +248,18 @@ namespace tictactoeA2
             }
         }
 
+        void btnReset()
+        {
+            btnTesting1.Text = btnTesting.Text;
+            btnTesting2.Text = btnTesting.Text;
+            btnTesting3.Text = btnTesting.Text;
+            btnTesting4.Text = btnTesting.Text;
+            btnTesting5.Text = btnTesting.Text;
+            btnTesting6.Text = btnTesting.Text;
+            btnTesting7.Text = btnTesting.Text;
+            btnTesting8.Text = btnTesting.Text;
+            btnTesting9.Text = btnTesting.Text;
+        }
 
         void nextmessageBoxResultX()
         {
@@ -273,6 +285,17 @@ namespace tictactoeA2
             }
         }
 
+        void nextmessageBoxResultXO()
+        {
+            try
+            {
+                MessageBox.Show("Oh no! it's draw. Please play again.", "Tic Tac Toe", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("An error occured.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
 
         void checkStatusResult()
         {
@@ -448,6 +471,20 @@ namespace tictactoeA2
                 try
                 {
                     nextmessageBoxResultO();
+                }
+                catch (Exception)
+                {
+                    MessageBox.Show("An error occured.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+            //If player X & player O are draw
+            else if (btnTesting1.Text != btnTesting.Text && btnTesting2.Text != btnTesting.Text && btnTesting3.Text != btnTesting.Text &&
+                btnTesting4.Text != btnTesting.Text && btnTesting5.Text != btnTesting.Text && btnTesting6.Text != btnTesting.Text &&
+                btnTesting7.Text != btnTesting.Text && btnTesting8.Text != btnTesting.Text && btnTesting9.Text != btnTesting.Text)
+            {
+                try
+                {
+                    nextmessageBoxResultXO();
                 }
                 catch (Exception)
                 {
