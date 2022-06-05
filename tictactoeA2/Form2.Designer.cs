@@ -37,6 +37,7 @@
             this.btnTesting5 = new System.Windows.Forms.Button();
             this.btnTesting6 = new System.Windows.Forms.Button();
             this.btnTesting7 = new System.Windows.Forms.Button();
+            this.btnTesting8 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnHome
@@ -122,12 +123,23 @@
             this.btnTesting7.UseVisualStyleBackColor = true;
             this.btnTesting7.Click += new System.EventHandler(this.btnTesting7_Click);
             // 
+            // btnTesting8
+            // 
+            this.btnTesting8.Font = new System.Drawing.Font("UD Digi Kyokasho NK-B", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnTesting8.Location = new System.Drawing.Point(382, 358);
+            this.btnTesting8.Name = "btnTesting8";
+            this.btnTesting8.Size = new System.Drawing.Size(110, 110);
+            this.btnTesting8.TabIndex = 8;
+            this.btnTesting8.UseVisualStyleBackColor = true;
+            this.btnTesting8.Click += new System.EventHandler(this.btnTesting8_Click);
+            // 
             // Play
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::tictactoeA2.Properties.Resources.Play_Background;
             this.ClientSize = new System.Drawing.Size(635, 715);
+            this.Controls.Add(this.btnTesting8);
             this.Controls.Add(this.btnTesting7);
             this.Controls.Add(this.btnTesting6);
             this.Controls.Add(this.btnTesting5);
@@ -156,5 +168,6 @@
         private Button btnTesting5;
         private Button btnTesting6;
         private Button btnTesting7;
+        private Button btnTesting8;
     }
 }
