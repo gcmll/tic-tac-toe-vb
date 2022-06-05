@@ -43,6 +43,7 @@
             this.btnPlay.Size = new System.Drawing.Size(253, 47);
             this.btnPlay.TabIndex = 0;
             this.btnPlay.Text = "Play";
+            this.btnPlay.UseMnemonic = false;
             this.btnPlay.UseVisualStyleBackColor = false;
             this.btnPlay.Click += new System.EventHandler(this.btnPlay_Click);
             // 
@@ -56,6 +57,7 @@
             this.btnExit.Size = new System.Drawing.Size(253, 47);
             this.btnExit.TabIndex = 1;
             this.btnExit.Text = "Exit";
+            this.btnExit.UseMnemonic = false;
             this.btnExit.UseVisualStyleBackColor = false;
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
@@ -68,7 +70,7 @@
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.btnPlay);
             this.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "Home";

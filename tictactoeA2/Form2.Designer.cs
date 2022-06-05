@@ -41,6 +41,12 @@
             this.btnTesting9 = new System.Windows.Forms.Button();
             this.btnTesting = new System.Windows.Forms.Button();
             this.btnNewGame = new System.Windows.Forms.Button();
+            this.picBoxPlayerX = new System.Windows.Forms.PictureBox();
+            this.picBoxPlayerO = new System.Windows.Forms.PictureBox();
+            this.lblPlayerX = new System.Windows.Forms.Label();
+            this.lblPlayerO = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.picBoxPlayerX)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBoxPlayerO)).BeginInit();
             this.SuspendLayout();
             // 
             // btnHome
@@ -53,6 +59,7 @@
             this.btnHome.Size = new System.Drawing.Size(175, 47);
             this.btnHome.TabIndex = 0;
             this.btnHome.Text = "Home";
+            this.btnHome.UseMnemonic = false;
             this.btnHome.UseVisualStyleBackColor = false;
             this.btnHome.Click += new System.EventHandler(this.btnHome_Click);
             // 
@@ -65,6 +72,7 @@
             this.btnTesting1.Name = "btnTesting1";
             this.btnTesting1.Size = new System.Drawing.Size(110, 110);
             this.btnTesting1.TabIndex = 1;
+            this.btnTesting1.UseMnemonic = false;
             this.btnTesting1.UseVisualStyleBackColor = false;
             this.btnTesting1.Click += new System.EventHandler(this.btnTesting1_Click);
             // 
@@ -77,6 +85,7 @@
             this.btnTesting2.Name = "btnTesting2";
             this.btnTesting2.Size = new System.Drawing.Size(110, 110);
             this.btnTesting2.TabIndex = 2;
+            this.btnTesting2.UseMnemonic = false;
             this.btnTesting2.UseVisualStyleBackColor = false;
             this.btnTesting2.Click += new System.EventHandler(this.btnTesting2_Click);
             // 
@@ -89,6 +98,7 @@
             this.btnTesting3.Name = "btnTesting3";
             this.btnTesting3.Size = new System.Drawing.Size(110, 110);
             this.btnTesting3.TabIndex = 3;
+            this.btnTesting3.UseMnemonic = false;
             this.btnTesting3.UseVisualStyleBackColor = false;
             this.btnTesting3.Click += new System.EventHandler(this.btnTesting3_Click);
             // 
@@ -101,6 +111,7 @@
             this.btnTesting4.Name = "btnTesting4";
             this.btnTesting4.Size = new System.Drawing.Size(110, 110);
             this.btnTesting4.TabIndex = 4;
+            this.btnTesting4.UseMnemonic = false;
             this.btnTesting4.UseVisualStyleBackColor = false;
             this.btnTesting4.Click += new System.EventHandler(this.btnTesting4_Click);
             // 
@@ -113,6 +124,7 @@
             this.btnTesting5.Name = "btnTesting5";
             this.btnTesting5.Size = new System.Drawing.Size(110, 110);
             this.btnTesting5.TabIndex = 5;
+            this.btnTesting5.UseMnemonic = false;
             this.btnTesting5.UseVisualStyleBackColor = false;
             this.btnTesting5.Click += new System.EventHandler(this.btnTesting5_Click);
             // 
@@ -125,6 +137,7 @@
             this.btnTesting6.Name = "btnTesting6";
             this.btnTesting6.Size = new System.Drawing.Size(110, 110);
             this.btnTesting6.TabIndex = 6;
+            this.btnTesting6.UseMnemonic = false;
             this.btnTesting6.UseVisualStyleBackColor = false;
             this.btnTesting6.Click += new System.EventHandler(this.btnTesting6_Click);
             // 
@@ -137,6 +150,7 @@
             this.btnTesting7.Name = "btnTesting7";
             this.btnTesting7.Size = new System.Drawing.Size(110, 110);
             this.btnTesting7.TabIndex = 7;
+            this.btnTesting7.UseMnemonic = false;
             this.btnTesting7.UseVisualStyleBackColor = false;
             this.btnTesting7.Click += new System.EventHandler(this.btnTesting7_Click);
             // 
@@ -149,6 +163,7 @@
             this.btnTesting8.Name = "btnTesting8";
             this.btnTesting8.Size = new System.Drawing.Size(110, 110);
             this.btnTesting8.TabIndex = 8;
+            this.btnTesting8.UseMnemonic = false;
             this.btnTesting8.UseVisualStyleBackColor = false;
             this.btnTesting8.Click += new System.EventHandler(this.btnTesting8_Click);
             // 
@@ -161,6 +176,7 @@
             this.btnTesting9.Name = "btnTesting9";
             this.btnTesting9.Size = new System.Drawing.Size(110, 110);
             this.btnTesting9.TabIndex = 9;
+            this.btnTesting9.UseMnemonic = false;
             this.btnTesting9.UseVisualStyleBackColor = false;
             this.btnTesting9.Click += new System.EventHandler(this.btnTesting9_Click);
             // 
@@ -183,8 +199,53 @@
             this.btnNewGame.Size = new System.Drawing.Size(187, 47);
             this.btnNewGame.TabIndex = 11;
             this.btnNewGame.Text = "New Game";
+            this.btnNewGame.UseMnemonic = false;
             this.btnNewGame.UseVisualStyleBackColor = false;
             this.btnNewGame.Click += new System.EventHandler(this.btnNewGame_Click);
+            // 
+            // picBoxPlayerX
+            // 
+            this.picBoxPlayerX.BackColor = System.Drawing.Color.Transparent;
+            this.picBoxPlayerX.BackgroundImage = global::tictactoeA2.Properties.Resources.Players_XO_icon;
+            this.picBoxPlayerX.Location = new System.Drawing.Point(124, 36);
+            this.picBoxPlayerX.Name = "picBoxPlayerX";
+            this.picBoxPlayerX.Size = new System.Drawing.Size(83, 83);
+            this.picBoxPlayerX.TabIndex = 12;
+            this.picBoxPlayerX.TabStop = false;
+            // 
+            // picBoxPlayerO
+            // 
+            this.picBoxPlayerO.BackColor = System.Drawing.Color.Transparent;
+            this.picBoxPlayerO.BackgroundImage = global::tictactoeA2.Properties.Resources.Players_XO_icon;
+            this.picBoxPlayerO.Location = new System.Drawing.Point(435, 36);
+            this.picBoxPlayerO.Name = "picBoxPlayerO";
+            this.picBoxPlayerO.Size = new System.Drawing.Size(83, 83);
+            this.picBoxPlayerO.TabIndex = 13;
+            this.picBoxPlayerO.TabStop = false;
+            // 
+            // lblPlayerX
+            // 
+            this.lblPlayerX.AutoSize = true;
+            this.lblPlayerX.BackColor = System.Drawing.Color.Transparent;
+            this.lblPlayerX.Font = new System.Drawing.Font("UD Digi Kyokasho NK-B", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblPlayerX.Location = new System.Drawing.Point(98, 121);
+            this.lblPlayerX.Name = "lblPlayerX";
+            this.lblPlayerX.Size = new System.Drawing.Size(137, 28);
+            this.lblPlayerX.TabIndex = 14;
+            this.lblPlayerX.Text = "Player (X)";
+            this.lblPlayerX.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblPlayerO
+            // 
+            this.lblPlayerO.AutoSize = true;
+            this.lblPlayerO.BackColor = System.Drawing.Color.Transparent;
+            this.lblPlayerO.Font = new System.Drawing.Font("UD Digi Kyokasho NK-B", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblPlayerO.Location = new System.Drawing.Point(409, 121);
+            this.lblPlayerO.Name = "lblPlayerO";
+            this.lblPlayerO.Size = new System.Drawing.Size(139, 28);
+            this.lblPlayerO.TabIndex = 15;
+            this.lblPlayerO.Text = "Player (O)";
+            this.lblPlayerO.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Play
             // 
@@ -192,6 +253,10 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::tictactoeA2.Properties.Resources.Play_Background;
             this.ClientSize = new System.Drawing.Size(635, 715);
+            this.Controls.Add(this.lblPlayerO);
+            this.Controls.Add(this.lblPlayerX);
+            this.Controls.Add(this.picBoxPlayerO);
+            this.Controls.Add(this.picBoxPlayerX);
             this.Controls.Add(this.btnNewGame);
             this.Controls.Add(this.btnTesting);
             this.Controls.Add(this.btnTesting9);
@@ -210,7 +275,10 @@
             this.Name = "Play";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Tic Tac Toe";
+            ((System.ComponentModel.ISupportInitialize)(this.picBoxPlayerX)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBoxPlayerO)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -228,5 +296,9 @@
         private Button btnTesting9;
         private Button btnTesting;
         private Button btnNewGame;
+        private PictureBox picBoxPlayerX;
+        private PictureBox picBoxPlayerO;
+        private Label lblPlayerX;
+        private Label lblPlayerO;
     }
 }
