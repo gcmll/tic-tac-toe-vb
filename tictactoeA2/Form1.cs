@@ -19,5 +19,26 @@ namespace tictactoeA2
         {
             this.Close();
         }
+
+        private void Home_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            DialogResult MessageBoxQuestion = MessageBox.Show("Are you sure you want to continue?", "Please Confirm", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+            try
+            {
+                if (MessageBoxQuestion == DialogResult.Yes)
+                {
+                    e.Cancel = false;
+                }
+                else if (MessageBoxQuestion == DialogResult.No)
+                {
+                    e.Cancel = true;
+                }
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("An error occured.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
     }
 }
