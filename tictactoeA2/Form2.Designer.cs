@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Play));
             this.btnHome = new System.Windows.Forms.Button();
+            this.btnTesting1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnHome
@@ -45,12 +46,23 @@
             this.btnHome.UseVisualStyleBackColor = false;
             this.btnHome.Click += new System.EventHandler(this.btnHome_Click);
             // 
+            // btnTesting1
+            // 
+            this.btnTesting1.Font = new System.Drawing.Font("UD Digi Kyokasho NK-B", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnTesting1.Location = new System.Drawing.Point(138, 239);
+            this.btnTesting1.Name = "btnTesting1";
+            this.btnTesting1.Size = new System.Drawing.Size(110, 110);
+            this.btnTesting1.TabIndex = 1;
+            this.btnTesting1.UseVisualStyleBackColor = true;
+            this.btnTesting1.Click += new System.EventHandler(this.btnTesting1_Click);
+            // 
             // Play
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::tictactoeA2.Properties.Resources.Play_Background;
             this.ClientSize = new System.Drawing.Size(635, 715);
+            this.Controls.Add(this.btnTesting1);
             this.Controls.Add(this.btnHome);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -65,5 +77,6 @@
         #endregion
 
         private Button btnHome;
+        private Button btnTesting1;
     }
 }
