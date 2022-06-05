@@ -268,11 +268,25 @@ namespace tictactoeA2
             btnTesting9.Text = btnTesting.Text;
         }
 
+        void btnOff()
+        {
+            btnTesting1.Enabled = false;
+            btnTesting2.Enabled = false;
+            btnTesting3.Enabled = false;
+            btnTesting4.Enabled = false;
+            btnTesting5.Enabled = false;
+            btnTesting6.Enabled = false;
+            btnTesting7.Enabled = false;
+            btnTesting8.Enabled = false;
+            btnTesting9.Enabled = false;
+        }
+
         void nextmessageBoxResultX()
         {
             try
             {
                 MessageBox.Show("Congratulations! Player X won the game.", "Tic Tac Toe", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                btnOff();
             }
             catch (Exception)
             {
@@ -285,6 +299,7 @@ namespace tictactoeA2
             try
             {
                 MessageBox.Show("Congratulations! Player O won the game.", "Tic Tac Toe", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                btnOff();
             }
             catch (Exception)
             {
@@ -297,6 +312,7 @@ namespace tictactoeA2
             try
             {
                 MessageBox.Show("Oh no! it's draw. Please play again.", "Tic Tac Toe", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                btnOff();
             }
             catch (Exception)
             {
