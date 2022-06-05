@@ -37,7 +37,7 @@
             // 
             this.btnPlay.BackColor = System.Drawing.Color.LemonChiffon;
             this.btnPlay.Font = new System.Drawing.Font("UD Digi Kyokasho NK-B", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnPlay.ForeColor = System.Drawing.Color.Crimson;
+            this.btnPlay.ForeColor = System.Drawing.Color.DarkGoldenrod;
             this.btnPlay.Location = new System.Drawing.Point(191, 553);
             this.btnPlay.Name = "btnPlay";
             this.btnPlay.Size = new System.Drawing.Size(253, 47);

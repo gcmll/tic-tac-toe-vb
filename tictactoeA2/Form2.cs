@@ -356,8 +356,8 @@ namespace tictactoeA2
             try
             {
                 MessageBox.Show("Congratulations! Player X won the game.", "Tic Tac Toe", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                scoreCount = ushort.Parse(lblPXScore.Text);
-                lblPXScore.Text = Convert.ToString(scoreCount + 1);
+                scoreCount = ushort.Parse(txtBoxPXScore.Text);
+                txtBoxPXScore.Text = Convert.ToString(scoreCount + 1);
                 btnOff();
                 continueNextRound();
             }
@@ -372,8 +372,8 @@ namespace tictactoeA2
             try
             {
                 MessageBox.Show("Congratulations! Player O won the game.", "Tic Tac Toe", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                scoreCount = ushort.Parse(lblPOScore.Text);
-                lblPOScore.Text = Convert.ToString(scoreCount + 1);
+                scoreCount = ushort.Parse(txtBoxPOScore.Text);
+                txtBoxPOScore.Text = Convert.ToString(scoreCount + 1);
                 btnOff();
                 continueNextRound();
             }
@@ -651,8 +651,8 @@ namespace tictactoeA2
             try
             {
                 continueNextRound();
-                lblPXScore.Text = "0";
-                lblPOScore.Text = "0";         
+                txtBoxPXScore.Text = "0";
+                txtBoxPOScore.Text = "0";         
             }
             catch (Exception)
             {

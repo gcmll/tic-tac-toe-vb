@@ -45,9 +45,9 @@
             this.picBoxPlayerO = new System.Windows.Forms.PictureBox();
             this.lblPlayerX = new System.Windows.Forms.Label();
             this.lblPlayerO = new System.Windows.Forms.Label();
-            this.lblPXScore = new System.Windows.Forms.Label();
-            this.lblPOScore = new System.Windows.Forms.Label();
             this.btnResetScore = new System.Windows.Forms.Button();
+            this.txtBoxPXScore = new System.Windows.Forms.TextBox();
+            this.txtBoxPOScore = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.picBoxPlayerX)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picBoxPlayerO)).BeginInit();
             this.SuspendLayout();
@@ -57,7 +57,7 @@
             this.btnHome.BackColor = System.Drawing.Color.LemonChiffon;
             this.btnHome.CausesValidation = false;
             this.btnHome.Font = new System.Drawing.Font("UD Digi Kyokasho NK-B", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnHome.ForeColor = System.Drawing.Color.Crimson;
+            this.btnHome.ForeColor = System.Drawing.Color.Olive;
             this.btnHome.Location = new System.Drawing.Point(32, 630);
             this.btnHome.Name = "btnHome";
             this.btnHome.Size = new System.Drawing.Size(175, 47);
@@ -198,7 +198,7 @@
             this.btnNewGame.BackColor = System.Drawing.Color.LemonChiffon;
             this.btnNewGame.CausesValidation = false;
             this.btnNewGame.Font = new System.Drawing.Font("UD Digi Kyokasho NK-B", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnNewGame.ForeColor = System.Drawing.Color.Crimson;
+            this.btnNewGame.ForeColor = System.Drawing.Color.Olive;
             this.btnNewGame.Location = new System.Drawing.Point(217, 630);
             this.btnNewGame.Name = "btnNewGame";
             this.btnNewGame.Size = new System.Drawing.Size(187, 47);
@@ -252,38 +252,12 @@
             this.lblPlayerO.Text = "Player (O)";
             this.lblPlayerO.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // lblPXScore
-            // 
-            this.lblPXScore.AutoSize = true;
-            this.lblPXScore.BackColor = System.Drawing.Color.Transparent;
-            this.lblPXScore.Font = new System.Drawing.Font("UD Digi Kyokasho NK-B", 33F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblPXScore.ForeColor = System.Drawing.Color.Crimson;
-            this.lblPXScore.Location = new System.Drawing.Point(141, 153);
-            this.lblPXScore.Name = "lblPXScore";
-            this.lblPXScore.Size = new System.Drawing.Size(53, 51);
-            this.lblPXScore.TabIndex = 16;
-            this.lblPXScore.Text = "0";
-            this.lblPXScore.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // lblPOScore
-            // 
-            this.lblPOScore.AutoSize = true;
-            this.lblPOScore.BackColor = System.Drawing.Color.Transparent;
-            this.lblPOScore.Font = new System.Drawing.Font("UD Digi Kyokasho NK-B", 33F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblPOScore.ForeColor = System.Drawing.Color.Crimson;
-            this.lblPOScore.Location = new System.Drawing.Point(451, 153);
-            this.lblPOScore.Name = "lblPOScore";
-            this.lblPOScore.Size = new System.Drawing.Size(53, 51);
-            this.lblPOScore.TabIndex = 17;
-            this.lblPOScore.Text = "0";
-            this.lblPOScore.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // btnResetScore
             // 
             this.btnResetScore.BackColor = System.Drawing.Color.LemonChiffon;
             this.btnResetScore.CausesValidation = false;
             this.btnResetScore.Font = new System.Drawing.Font("UD Digi Kyokasho NK-B", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnResetScore.ForeColor = System.Drawing.Color.Crimson;
+            this.btnResetScore.ForeColor = System.Drawing.Color.Olive;
             this.btnResetScore.Location = new System.Drawing.Point(414, 630);
             this.btnResetScore.Name = "btnResetScore";
             this.btnResetScore.Size = new System.Drawing.Size(188, 47);
@@ -293,15 +267,39 @@
             this.btnResetScore.UseVisualStyleBackColor = false;
             this.btnResetScore.Click += new System.EventHandler(this.btnResetScore_Click);
             // 
+            // txtBoxPXScore
+            // 
+            this.txtBoxPXScore.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtBoxPXScore.Font = new System.Drawing.Font("212 Baby Girl", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.txtBoxPXScore.ForeColor = System.Drawing.Color.Crimson;
+            this.txtBoxPXScore.Location = new System.Drawing.Point(73, 150);
+            this.txtBoxPXScore.Name = "txtBoxPXScore";
+            this.txtBoxPXScore.Size = new System.Drawing.Size(178, 53);
+            this.txtBoxPXScore.TabIndex = 19;
+            this.txtBoxPXScore.Text = "0";
+            this.txtBoxPXScore.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtBoxPOScore
+            // 
+            this.txtBoxPOScore.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtBoxPOScore.Font = new System.Drawing.Font("212 Baby Girl", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.txtBoxPOScore.ForeColor = System.Drawing.Color.Crimson;
+            this.txtBoxPOScore.Location = new System.Drawing.Point(387, 150);
+            this.txtBoxPOScore.Name = "txtBoxPOScore";
+            this.txtBoxPOScore.Size = new System.Drawing.Size(178, 53);
+            this.txtBoxPOScore.TabIndex = 20;
+            this.txtBoxPOScore.Text = "0";
+            this.txtBoxPOScore.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
             // Play
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::tictactoeA2.Properties.Resources.Play_Background;
             this.ClientSize = new System.Drawing.Size(635, 715);
+            this.Controls.Add(this.txtBoxPOScore);
+            this.Controls.Add(this.txtBoxPXScore);
             this.Controls.Add(this.btnResetScore);
-            this.Controls.Add(this.lblPOScore);
-            this.Controls.Add(this.lblPXScore);
             this.Controls.Add(this.lblPlayerO);
             this.Controls.Add(this.lblPlayerX);
             this.Controls.Add(this.picBoxPlayerO);
@@ -349,8 +347,8 @@
         private PictureBox picBoxPlayerO;
         private Label lblPlayerX;
         private Label lblPlayerO;
-        private Label lblPXScore;
-        private Label lblPOScore;
         private Button btnResetScore;
+        private TextBox txtBoxPXScore;
+        private TextBox txtBoxPOScore;
     }
 }
